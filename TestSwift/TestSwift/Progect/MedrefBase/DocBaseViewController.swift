@@ -12,20 +12,21 @@ class DocBaseViewController: UIViewController {
 
     
     var navTitle = "主页"
-    
-    var itemTitle: String {
-        get {
-            
-            if (itemTitle.isEqual("执行了set" as String)) {
-                return itemTitle
-            }else{
-                return "重写"
-            }
-        }
-        set {
-            itemTitle = "执行了set"
-        }
-    }
+    var itemTitle = "重写"
+//    var itemTitle: String {
+//        get {
+//            
+////            if (itemTitle.isEqual("执行了set" as String)) {
+////                return itemTitle
+////            }else{
+////                return "重写"
+////            }
+//            return "重写"
+//        }
+//        set {
+//            itemTitle = "执行了set"
+//        }
+//    }
     
     
     override func viewDidLoad() {
