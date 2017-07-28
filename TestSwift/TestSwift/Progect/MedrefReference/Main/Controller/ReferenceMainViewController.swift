@@ -157,6 +157,20 @@ class ReferenceMainViewController: DocBaseViewController {
         
         print(block)
         
+        self.navTitle = "hhh"
+        
+        print(navTitle)
+        print(self.navTitle)
+        
+        print(itemTitle)
+        print(self.itemTitle)
+        
+        self.itemTitle = "子类赋值"
+        
+        print(itemTitle)
+        print(self.itemTitle)
+        
+        
         
         
     }

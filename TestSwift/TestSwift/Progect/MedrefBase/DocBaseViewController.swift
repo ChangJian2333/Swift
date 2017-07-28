@@ -10,6 +10,24 @@ import UIKit
 
 class DocBaseViewController: UIViewController {
 
+    
+    var navTitle = "主页"
+    
+    var itemTitle: String {
+        get {
+            
+            if (itemTitle.isEqual("执行了set" as String)) {
+                return itemTitle
+            }else{
+                return "重写"
+            }
+        }
+        set {
+            itemTitle = "执行了set"
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
