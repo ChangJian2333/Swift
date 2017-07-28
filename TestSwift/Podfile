@@ -4,8 +4,11 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'TestSwift' do
-
+ # 网络请求
  pod 'Alamofire', '~> 4.4'
+ # 页面布局
  pod 'SnapKit'
+ # 图片加载
+ pod 'Kingfisher'
 
 end

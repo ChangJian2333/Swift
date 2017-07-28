@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195B6A661F2B28A600C7566A /* TestPCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B6A651F2B28A600C7566A /* TestPCH.swift */; };
 		197C743C1F05DE890074E8F8 /* ReferenceChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C743B1F05DE890074E8F8 /* ReferenceChildViewController.swift */; };
 		197C743E1F05EF2F0074E8F8 /* DocSlideSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C743D1F05EF2F0074E8F8 /* DocSlideSwitchView.swift */; };
 		19F6E8FD1F03622C0092B9B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F6E8FC1F03622C0092B9B3 /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		1326D56D34E7F1CA5EDE5EA3 /* Pods-TestSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSwift/Pods-TestSwift.release.xcconfig"; sourceTree = "<group>"; };
+		195B6A651F2B28A600C7566A /* TestPCH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPCH.swift; sourceTree = "<group>"; };
 		197C743B1F05DE890074E8F8 /* ReferenceChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceChildViewController.swift; sourceTree = "<group>"; };
 		197C743D1F05EF2F0074E8F8 /* DocSlideSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocSlideSwitchView.swift; sourceTree = "<group>"; };
 		19F6E8F91F03622C0092B9B3 /* TestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195B6A641F2B287800C7566A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				195B6A651F2B28A600C7566A /* TestPCH.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		19F6E8F01F03622C0092B9B3 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		19F6E8FB1F03622C0092B9B3 /* TestSwift */ = {
 			isa = PBXGroup;
 			children = (
+				195B6A641F2B287800C7566A /* Config */,
 				19F6E9341F04A12A0092B9B3 /* Progect */,
 				19F6E8FC1F03622C0092B9B3 /* AppDelegate.swift */,
 				19F6E8FE1F03622C0092B9B3 /* ViewController.swift */,
@@ -546,6 +557,7 @@
 				19F6F1551F04A2DB0092B9B3 /* DocTabBarController.swift in Sources */,
 				19F6F1571F04A4120092B9B3 /* ReferenceMainViewController.swift in Sources */,
 				19F6E8FD1F03622C0092B9B3 /* AppDelegate.swift in Sources */,
+				195B6A661F2B28A600C7566A /* TestPCH.swift in Sources */,
 				197C743C1F05DE890074E8F8 /* ReferenceChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

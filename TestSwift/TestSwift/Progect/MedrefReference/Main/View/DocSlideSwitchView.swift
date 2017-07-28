@@ -14,12 +14,17 @@ class DocSlideSwitchView: UIView {
     var topScrollView = UIScrollView()
     var rootScrollView = UIScrollView()
     
+    func setConstraints() {
+        self.addSubview(topScrollView)
+        self.addSubview(rootScrollView)
+        rootScrollView.snp.makeConstraints { (make) in
+            make.edges.equalTo(self)
+        }
+    }
     
-//    override init(frame: CGRect) {
-//        self.addSubview(topScrollView)
-//        self.addSubview(rootScrollView)
-//        
-//    }
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
 //    var count: Int
 //    
